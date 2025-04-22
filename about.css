@@ -1,0 +1,196 @@
+#wrapper
+{
+    margin: 0 auto;
+}
+body
+{
+    background-color: #e0f7fa;
+    margin: 0; 
+    padding: 0;
+}
+/* Nav Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333333; /* dark gray */
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav li a:hover {
+    color:#cfe9ff ; /* dark blue */
+}
+
+/* About Me Section */
+.about-me-container {
+    padding: 60px 40px;
+    background-color: #f9f9f9; /* Soft background color */
+    text-align: center;
+}
+
+/* Title */
+.about-me-container h2 {
+    font-size: 2rem;
+    color: #003366; /* Dark blue color */
+    margin-bottom: 20px;
+}
+
+/* Container for Left and Right Columns */
+.about-me-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-me-container h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Left Column: Image */
+.about-left-column {
+    flex: 1;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners for the image */
+}
+
+/* Right Column: Text and Button */
+.about-right-column {
+    flex: 1;
+    text-align: left;
+}
+
+.about-right-column p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.about-right-column .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-right-column .button:hover {
+    background-color: #0055aa; /* Slightly lighter on hover */
+}
+.about-right-column h3.quote-text {
+    color: #66b3ff;
+    font-style: italic;
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+}
+
+.about-right-column p.quote-author {
+    font-size: 0.9rem;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+
+ /*footer section*/
+
+ .footer-container {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 40px 60px;
+    text-align: left;
+}
+
+/* Footer Top Section */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+/* Footer Links Section (Two Columns) */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    width: 50%;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+/* Only apply hover effect for clickable links in the "Explore" section */
+.footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #66b3ff; /* Light blue on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: left;
+    padding-top: 20px;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-bottom p {
+    color: #ffffff;
+}

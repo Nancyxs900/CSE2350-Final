@@ -1,0 +1,170 @@
+#wrapper
+{
+    margin: 0 auto;
+}
+body
+{
+    background-color: #e0f7fa;
+    margin: 0; 
+    padding: 0;
+}
+/* Nav Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333333; /* dark gray */
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav li a:hover {
+    color:#cfe9ff ; /* dark blue */
+}
+
+
+/*Project Section*/
+.project-container {
+    display: flex;
+    flex-direction: column; /* stack h2 above the grid */
+    padding: 60px;
+    gap: 40px;
+  }
+  
+  .project-container h2 {
+    color: #003366;
+    font-size: 2rem;
+    margin-bottom: 20px; /* add some spacing under the heading */
+  }
+  
+  .featured-works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    flex: 1;
+  }
+  
+  .project-box {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    /*background-color: #f9f9f9;*/
+
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-box img {
+    width: 100%; /* or try 80% if you want them smaller */
+    max-width: 500px; /* optional limit */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-box:hover img {
+    transform: scale(1.05);
+  }
+  
+  .project-box h3 {
+    margin-top: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    text-align: left; /* left-align the h3 text */
+  }
+
+ 
+  /*footer section*/
+
+.footer-container {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 40px 60px;
+    text-align: left;
+}
+
+/* Footer Top Section */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+/* Footer Links Section (Two Columns) */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    width: 50%;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+/* Only apply hover effect for clickable links in the "Explore" section */
+.footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #66b3ff; /* Light blue on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: left;
+    padding-top: 20px;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-bottom p {
+    color: #ffffff;
+}
